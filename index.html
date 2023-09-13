@@ -122,7 +122,7 @@
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
           .then(response => {
             success.innerHTML="data successfully submitted";
-            alert("Registration Successful")
+            alert("Registration Successful",200)
 
             setTimeout(function(){
               success.innerHTML="";
